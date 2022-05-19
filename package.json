@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:widget": "parcel build src/index.tsx --no-source-maps -d build",
+    "build:widget": "parcel build src/index.tsx --no-source-maps --no-minify -d build",
     "deploy-aws": "node aws-upload.js"
   },
   "eslintConfig": {
